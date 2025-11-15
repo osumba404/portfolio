@@ -3,797 +3,580 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Evans Osumba - Software Developer</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-    <!-- <link rel="stylesheet" href="animations.css">
-    <link rel="stylesheet" href="mobile.css"> -->
-    <script src="main.js" defer></script>
+    <title>Evans Atula Osumba - Full-Stack & Mobile App Developer</title>
+    <meta name="description" content="Evans Atula Osumba is a professional Full-Stack Developer and Mobile App Developer based in Nairobi, Kenya. Specializing in Django, PHP, Flutter, React, and modern web technologies. Founder of Digital Leap Africa.">
+    <meta name="keywords" content="Evans Osumba, Full-Stack Developer Kenya, Mobile App Developer Nairobi, Django Developer, PHP Developer, Flutter Developer, React Developer, Web Development Kenya, Digital Leap Africa, Software Engineer Kenya">
+    <meta name="author" content="Evans Atula Osumba">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://osumba.digitalleap.africa">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Evans Atula Osumba - Full-Stack Developer & Mobile App Developer">
+    <meta property="og:description" content="Professional Full-Stack Developer specializing in Django, PHP, Flutter, and React. Based in Nairobi, Kenya. Founder of Digital Leap Africa.">
+    <meta property="og:image" content="https://osumba.digitalleap.africa/IMG-20250908-WA0168.png">
+    <meta property="og:url" content="https://osumba.digitalleap.africa">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Evans Osumba Portfolio">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Evans Atula Osumba - Full-Stack Developer">
+    <meta name="twitter:description" content="Professional Full-Stack Developer specializing in Django, PHP, Flutter, and React. Based in Nairobi, Kenya.">
+    <meta name="twitter:image" content="https://osumba.digitalleap.africa/IMG-20250908-WA0168.png">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Evans Atula Osumba",
+        "jobTitle": "Full-Stack Developer",
+        "description": "Professional Full-Stack and Mobile Developer specializing in Django, PHP, Flutter, and React",
+        "url": "https://osumba.digitalleap.africa",
+        "image": "https://osumba.digitalleap.africa/IMG-20250908-WA0168.png",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Nairobi",
+            "addressCountry": "Kenya"
+        },
+        "email": "e.osumba@digitalleap.africa",
+        "telephone": "+254707868194",
+        "sameAs": [
+            "https://github.com/osumba404",
+            "https://digitalleap.africa"
+        ],
+        "knowsAbout": ["Web Development", "Mobile App Development", "Django", "PHP", "Flutter", "React", "JavaScript", "Python"]
+    }
+    </script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
-    <!-- Navigation Bar -->
-    <nav class="navbar">
-        <p class="p_evans" style="color: #00ff88;">Evans Osumba</p>
-        <div class="mobile-menu-toggle" onclick="toggleMobileMenu()">☰</div>
-        <ul class="nav-list">
-            <li><a href="#home" onclick="closeMobileMenu()">Home</a></li>
-            <li><a href="#about" onclick="closeMobileMenu()">About</a></li>
-            <li><a href="#skills" onclick="closeMobileMenu()">Skills</a></li>
-            <li><a href="#education" onclick="closeMobileMenu()">Education</a></li>
-            <li><a href="#projects" onclick="closeMobileMenu()">Projects</a></li>
-            <li><a href="#experience" onclick="closeMobileMenu()">Experience</a></li>
-            <li><a href="#services" onclick="closeMobileMenu()">Services</a></li>
-            <li><a href="#contact" onclick="closeMobileMenu()">Contact</a></li>
-        </ul>
-    </nav>
-
-    <!-- Home Section -->
-    <section id="home" class="intro">
-        <div class="intro-content">
-            <div class="intro-text animate-fadeIn">
-                <p class="first_text">
-                    <br>
-                    <span id="greeting">Turn Your Ideas into Reality Through Code</span><br>
-                    <span id="highlight" class="highlight"></span>
-                </p>
-                <p class="subtitle" id="subtitle1"></p>
-              
-               
-                <div class="social-links">
-                    <a href="https://github.com/galaxie-dev" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/evans-osumba-0565b42b0/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="https://twitter.com/Osumba_ke" target="_blank"><i class="fab fa-x-twitter"></i></a>
-                    <a href="https://wa.me/254707868194" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                </div>
-                <!-- <a href="#contact"><button class="hire-me">Hire Me</button></a> -->
-            </div>
-            <div class="profile-container">
-                <div class="profile-wrapper">
-                    <div class="card">
-                        <div class="profile-pic">
-                            <img src="imgs/evans2.jpeg" alt="Evans Osumba">
-                        </div>
-                        <div class="bottom">
-                            <span class="name">Evans Osumba</span> <br>
-                            <span class="about-me">Software Developer</span>
-                        </div>
-                    </div>
-                </div>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">Evans <span> Osumba</span></a>
+            <ul class="nav-links">
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
             </div>
         </div>
+    </header>
+
+    <!-- 1️⃣ HERO SECTION -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Evans Atula <span>Osumba</span></h1>
+            <h2 class="hero-subtitle">Full-Stack & Mobile Developer in Nairobi, Kenya</h2>
+            <h3 class="hero-subtitle">Founder - Digital Leap Africa</h3>
+            <p class="hero-description">Professional software engineer specializing in Django, PHP, Flutter, and React development. I build scalable web & mobile solutions that solve real problems. Committed to promoting digital literacy and empowering individuals in STEM across Kenya and Africa.</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn btn-primary" aria-label="View Evans Osumba's portfolio projects">View My Work</a>
+                <a href="#contact" class="btn btn-secondary" aria-label="Contact Evans Osumba for development services">Contact Me</a>
+            </div>
+        </div>
+        <div class="hero-image" role="img" aria-label="Evans Atula Osumba - Professional Full-Stack Developer"></div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
+    <!-- 2️⃣ PROJECTS SECTION (Now placed right after Hero) -->
+    <section class="projects" id="projects">
         <div class="container">
+            <h2 class="section-title">Featured Web Development & Mobile App Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('gainfarm-photo.png')"></div>
+                    <div class="project-content">
+                        <h3>GainFarm - Agricultural E-commerce Platform</h3>
+                        <p>Bridges the gap between farmers and customers in Kenya with a full-featured marketplace.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Django</span>
+                            <span class="project-tag">PostgreSQL</span>
+                            <span class="project-tag">Bootstrap</span>
+                            <span class="project-tag">Payment Integration</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="https://gainfarm.com" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('animaliq.png')"></div>
+                    <div class="project-content">
+                        <h3>Animal IQ - Wildlife Community Platform</h3>
+                        <p>Comprehensive platform for conservation enthusiasts, researchers, and the general public.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">PHP</span>
+                            <span class="project-tag">MySQL</span>
+                            <span class="project-tag">Bootstrap</span>
+                            <span class="project-tag">Community Features</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="https://animaliq.ct.ws" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('dlafrica.png')"></div>
+                    <div class="project-content">
+                        <h3>Digital Leap Africa</h3>
+                        <p>Digital Leap Africa (DLA) is an inclusive technology community empowering Africa’s next generation of digital creators.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Laravel</span>
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">MySQL</span>
+                            <span class="project-tag">Daraja</span>
+                            <span class="project-tag">Tailwind CSS</span>
+                           
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="https://digitalleap.africa" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('eyeonic-site.png')"></div>
+                    <div class="project-content">
+                        <h3>Eyeonic</h3>
+                        <p>Eyeonic is a modern eCommerce platform with a curated design for selling eyewear products.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">PHP</span>
+                            <span class="project-tag">Daraja</span>
+                            <span class="project-tag">MySQL</span>
+                           
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="https://eyeonic.great-site.net/" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3️⃣ ABOUT ME SECTION -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About Evans Osumba - Professional Software Developer</h2>
             <div class="about-content">
-                <div class="about-img">
-                    <img src="imgs/software-engineer-1800x1347.jpg" alt="About Image">
-                </div>
                 <div class="about-text">
-                    <h2>About Me</h2>
-                    <p>
-                        I am a passionate Full Stack Developer based in Nairobi, Kenya, specializing in building 
-                        robust and scalable web applications.<br><br>
-
-                        My expertise lies in the Front End, with a particular focus on mastering front-end 
-                        technologies like React.js, HTML5, CSS3, and JavaScript. I have a keen eye for 
-                        design and a deep understanding of modern web technologies, enabling me to bridge the
-                        gap between technical functionality and user-centered design.<br><br>
-
-
-                        I am highly proficient in building scalable, high-performance web applications and 
-                        continuously expand my knowledge to embrace emerging tools and frameworks. <br><br>
-
-
-                        With a commitment to learning, innovation, and adaptability, I strive to contribute to 
-                        impactful projects and stay at the forefront of web development trends.
-                        </p>
-                
+                    <h3>Building Digital Solutions That Matter in Kenya and Beyond</h3>
+                    <p>I'm Evans Atula Osumba, a dedicated Full-Stack and Mobile Developer based in Nairobi, Kenya, with expertise in Django, PHP, Flutter, React, and modern web development frameworks. I specialize in creating scalable software solutions that address real-world challenges while maintaining clean, efficient code and best practices.</p>
+                    <p>As a professional software engineer in Kenya, I'm deeply committed to promoting digital literacy and empowering individuals in STEM through mentorship and community engagement. I believe technology should be accessible to everyone, and I actively work toward that goal through my involvement with Digital Leap Africa and LEA Foundation, fostering the next generation of developers in Africa.</p>
+                    <!-- <p>When I'm not coding, you can find me mentoring aspiring developers, exploring new technologies, or enjoying the vibrant Nairobi tech community.</p> -->
+                </div>
+                <div class="about-image" role="img" aria-label="Evans Osumba working on software development projects"></div>
             </div>
         </div>
     </section>
 
-    <section id="skills" class="skills">
-        <h2>My Skills</h2>
-        <div class="skills-accordion">
-            <!-- Programming Skills -->
-            <div class="accordion-item">
-                <div class="accordion-header" style="color: black;">
-                    <i class="fas fa-code" style="color: black;"></i>
-                    <h3 style="color: black;">Programming</h3>
-                    <i class="fas fa-chevron-down accordion-toggle"></i>
+    <!-- 4️⃣ SKILLS & TECH STACK SECTION -->
+    <section class="skills-section" id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-categories">
+                <div class="skills-category">
+                    <h3><i class="fas fa-laptop-code"></i> Frontend</h3>
+                    <div class="skills-list">
+                        <span class="skill-badge">JavaScript</span>
+                        <span class="skill-badge">HTML/CSS</span>
+                        <span class="skill-badge">XML</span>
+                        <span class="skill-badge">Flutter</span>
+                        <span class="skill-badge">Bootstrap</span>
+                    </div>
                 </div>
-                <div class="accordion-content">
-                    <div class="skill-card"><i class="fab fa-python"></i><p>Python: Scalable apps & automation</p></div>
-                    <div class="skill-card"><i class="fab fa-java"></i><p>Java: Web, Android & enterprise dev</p></div>
-                    <div class="skill-card"><i class="fas fa-code"></i><p>C & C++: Efficient system programming</p></div>
-                    <div class="skill-card"><i class="fab fa-cuttlefish"></i><p>C#: Desktop & enterprise solutions</p></div>
-                    <div class="skill-card"><i class="fab fa-js"></i><p>JavaScript: Dynamic web interactivity</p></div>
+                <div class="skills-category">
+                    <h3><i class="fas fa-server"></i> Backend</h3>
+                    <div class="skills-list">
+                        <span class="skill-badge">Python</span>
+                        <span class="skill-badge">Django</span>
+                        <span class="skill-badge">PHP</span>
+                        <span class="skill-badge">Laravel</span>
+                        <span class="skill-badge">REST APIs</span>
+                    </div>
                 </div>
-            </div>
-    
-            <!-- Web Development Skills -->
-            <div class="accordion-item">
-                <div class="accordion-header" style="color: black;">
-                    <i class="fab fa-html5" style="color: black;"></i>
-                    <h3 style="color: black;">Web Development</h3>
-                    <i class="fas fa-chevron-down accordion-toggle"></i>
+                <div class="skills-category">
+                    <h3><i class="fas fa-database"></i> Database</h3>
+                    <div class="skills-list">
+                        <span class="skill-badge">MySQL</span>
+                        <!-- <span class="skill-badge">PostgreSQL</span> -->
+                        <span class="skill-badge">SQLite</span>
+                    </div>
                 </div>
-                <div class="accordion-content">
-                    <div class="skill-card"><i class="fab fa-html5"></i><p>HTML5 & CSS3: Modern responsive websites</p></div>
-                    <div class="skill-card"><i class="fas fa-paint-brush"></i><p>UI/UX: User-friendly, responsive design, cross-device compatibility.</p></div>
-                    <div class="skill-card"><i class="fas fa-search"></i><p>SEO: Boosting web visibility</p></div>
-                    <div class="skill-card"><i class="fas fa-laptop-code"></i><p>Web & Enterprise Apps: Scalable Web apps</p></div>
-                    <div class="skill-card"><i class="fas fa-tasks"></i><p>Agile System Developmet: Iterative software management</p></div>
-                </div>
-            </div>
-    
-            <!-- Mobile Development Skills -->
-            <div class="accordion-item">
-                <div class="accordion-header" style="color: black;">
-                    <i class="fab fa-android" style="color: black;"></i>
-                    <h3 style="color: black;">Mobile Development</h3>
-                    <i class="fas fa-chevron-down accordion-toggle"></i>
-                </div>
-                <div class="accordion-content">
-                    <div class="skill-card"><i class="fab fa-android"></i><p>Android Development: Java-based mobile apps</p></div>
-                </div>
-            </div>
-    
-            <!-- Database Skills -->
-            <div class="accordion-item">
-                <div class="accordion-header" style="color: black;">
-                    <i class="fas fa-database" style="color: black;"></i>
-                    <h3 style="color: black;">Database</h3>
-                    <i class="fas fa-chevron-down accordion-toggle"></i>
-                </div>
-                <div class="accordion-content">
-                    <div class="skill-card"><i class="fas fa-database"></i><p>SQL: Database design & management</p></div>
-                </div>
-            </div>
-    
-            <!-- Networking Skills -->
-            <div class="accordion-item">
-                <div class="accordion-header" style="color: black;">
-                    <i class="fas fa-network-wired"></i>
-                    <h3 style="color: black;">Networking</h3>
-                    <i class="fas fa-chevron-down accordion-toggle"></i>
-                </div>
-                <div class="accordion-content">
-                    <div class="skill-card"><i class="fas fa-network-wired"></i><p>Network Architecture: Planning and implementing network infrastructure</p></div>
-                    <div class="skill-card"><i class="fas fa-cloud"></i><p>Cloud Computing: Deploying and managing web applications</p></div>
-                </div>
-            </div>
-    
-            <!-- Cybersecurity Skills -->
-            <div class="accordion-item">
-                <div class="accordion-header" style="color: black;" >
-                    <i class="fas fa-shield-alt" style="color: black;"></i>
-                    <h3 style="color: black;">Cybersecurity</h3>
-                    <i class="fas fa-chevron-down accordion-toggle"></i>
-                </div>
-                <div class="accordion-content">
-                    <div class="skill-card"><i class="fas fa-shield-alt"></i><p>Cybersecurity: Basic system protection</p></div>
-                </div>
-            </div>
-    
-            <!-- Digital Productivity Skills -->
-            <div class="accordion-item">
-                <div class="accordion-header" style="color: black;">
-                    <i class="fas fa-desktop" style="color: black;"></i>
-                    <h3 style="color: black;">Digital Productivity</h3>
-                    <i class="fas fa-chevron-down accordion-toggle"></i>
-                </div>
-                <div class="accordion-content">
-                    <div class="skill-card"><i class="fas fa-desktop"></i><p>Computer Essentials: Core skills & online collaboration tools</p></div>
-                    <div class="skill-card"><i class="fas fa-table"></i><p>Spreadsheets: Data analysis</p></div>
-                    <div class="skill-card"><i class="fas fa-file-word"></i><p>Word Document: Professional docs</p></div>
-                    <div class="skill-card"><i class="fas fa-chalkboard-teacher"></i><p>Presentation: Engaging & visually appealing slides</p></div>                    
+                <div class="skills-category">
+                    <h3><i class="fas fa-tools"></i> Tools & Others</h3>
+                    <div class="skills-list">
+                        <span class="skill-badge">GitHub</span>
+                        <span class="skill-badge">AWS</span>
+                        <span class="skill-badge">VS Code</span>
+                        <span class="skill-badge">Figma</span>
+                        <span class="skill-badge">Agile</span>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-
-
-<!-- Education Section -->
-<section id="education" class="education">
-    <h2>Education</h2>
-    <div class="education-container">
-        <div class="card">
-            <div class="card-inner">
-                <div class="education-front card-front">
-                    <img src="imgs/edu1.png" alt="Education" class="edu-logo">
-                    <h5 style="color: #00ff88;">Bachelor of Technology in Communication and Computer Networks</h5><br>
-                    <p>The Technical University of Kenya</p>
-                    <h5>2023-2027</h5>
-                    <p>In Session</p>
-                </div>
-                <div class="education-back card-back">
-                    <h1 style="color: #00ff88;">Skills</h1>
-                    <ul class="skills-list">
-                        <li>Network Architecture</li>
-                        <li>Programming (Python, Java)</li>
-                        <li>Cloud Computing</li>
-                        <li>Cybersecurity Basics</li>
-                        <li>Database Management</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="card">
-            <div class="card-inner">
-                <div class="education-front card-front">
-                    <img src="imgs/edu1.png" alt="Education" class="edu-logo">
-                    <h4 style="color: #00ff88;">Advanced Diploma in Software Engineering</h4><br>
-                    <p>Edulink International College</p>
-                    <h5>2024-2025</h5>
-                    <p>In Session</p>
-                </div>
-                <div class="education-back card-back">
-                    <h4 style="color: #00ff88;">Skills</h4>
-                    <ul class="skills-list">
-                        <li>Android Development</li>
-                        <li>Web Component Development with Java </li>
-                        <li>Web and Enterprise Application</li>
-                        <li>Agile System Development</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="card">
-            <div class="card-inner">
-                <div class="education-front card-front">
-                    <img src="imgs/edu1.png" alt="Education" class="edu-logo">
-                    <h4 style="color: #00ff88;">Diploma in Information Systems Management</h4><br>
-                    <p>Edulink International College</p>
-                    <h5>2023-2024</h5>
-                    <p>Completed!</p>
-                </div>
-                <div class="education-back card-back">                    
-                    <h4 style="color: #00ff88;">Skills</h4>
-                    <ul class="skills-list">
-                        <li>Web Development - HTML5, CSS3, Javascript</li>
-                        <li>Database Management - SQL</li>
-                        <li>UI/UX & Responsive Design</li>
-                        <li>Search Engine Optimisation</li>
-                        <li>Programing in C & C++</li>
-                        <li>Python , C#</li>
-                        <li>JAVA 1</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="card">
-            <div class="card-inner">
-                <div class="education-front card-front">
-                    <img src="imgs/edu1.png" alt="Education" class="edu-logo">
-                    <h4 style="color: #00ff88;">Certificate in ICDL</h4><br>
-                    <p>Edulink International College</p>
-                    <h5>2023-2024</h5>
-                    <p>Completed!</p>
-                </div>
-                <div class="education-back card-back">
-                    <h4 style="color: #00ff88;">Skills</h4>
-                    <ul class="skills-list">
-                        <li>Computer & Online Essentials</li>
-                        <li>Spreatsheets</li>
-                        <li>Word Documents</li>
-                        <li>Cybersecurity Basics</li>
-                        <li>Presentation</li>
-                        <li>Online Coaboration</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Projects Section -->
-<section id="projects" class="projects">
-    <h2>Projects</h2>
-    <div class="projects-container">
-        <div class="projects-wrapper">
-            
-            <div class="project-card">
-                <img src="imgs/digital-leap.png" alt="Project 2">
-                <div class="project-text">
-                    <h4>Digital Leap - eLearning site</h4><br>
-                    <a href="https://digital-leap.vercel.app/" target="_blank">View Web Page</a>
-                </div>
-            </div>
-            <!-- <div class="project-card">
-                <img src="imgs/gainfarm-photo.png" alt="Project 2">
-                <div class="project-text">
-                    <h4>GainFarm - eCommerce platform</h4><br>
-                    <a href="https://www.gainfarm.com/home/" target="_blank">View Web Page</a>
-                </div>
-            </div> -->
-            <div class="project-card">
-                <img src="imgs/woodie.png" alt="Project 3">
-                <div class="project-text">
-                    <h4>Woodie - Template</h4><br>
-                    <a href="https://woodie-furniture.vercel.app/" target="_blank">View Web Page</a>
-                </div>
-            </div>
-            <div class="project-card">
-                <img src="imgs/eyeonic-site.png" alt="Project 3">
-                <div class="project-text">
-                    <h4>Eyeonic - eCommerce</h4><br>
-                    <a href="https://eyeonic.great-site.net/" target="_blank">View Web Page</a>
-                </div>
-            </div>
-            <div class="project-card">
-                <img src="imgs/marv-portfolio.png" alt="Project 3">
-                <div class="project-text">
-                    <h4>Enviro Consultant - Portfolio</h4><br>
-                    <a href="https://marvinosumba-enviro-consultant.vercel.app/" target="_blank">View Web Page</a>
-                </div>
-            </div>
-            <!-- <div class="project-card">
-                <img src="imgs/animall--iq.jpeg" alt="Project 3">
-                <div class="project-text">
-                    <h4>Animal IQ - Nature & Wildlife</h4><br>
-                    <a href="https://evansosumba.vercel.app/" target="_blank">Comming Soon...</a>
-                </div>
-            </div> -->
-        </div>
-    </div>
-    <!-- Arrows only visible on desktop -->
-    <button class="prev desktop-only" onclick="prevProject()">❮</button>
-    <button class="next desktop-only" onclick="nextProject()">❯</button>
-</section>
-
-    <!-- Experience Section -->
-    <section id="experience" class="experience">
-        <h2>Experience</h2>
-        <div class="timeline">
-            <!-- Timeline Line -->
-            <div class="timeline-line"></div>
-    
-            <!-- Timeline Items -->
-            <div class="timeline-item left">
-                <div class="timeline-card">
-                    <div class="timeline-text">
-                        <div class="timeline-date">2025 - Present</div>
-                        <h3>Tutoring - Web Development</h3>
-                        <a href="https://leafoundation.co.ke/" target="_blank"><h4>LEA Foundation</h4></a>
-                        <p>Voluntary Tutoring Students in Web Development at Mukuru Slums Development Project</p>
+    <!-- 5️⃣ EXPERIENCE SECTION -->
+    <!-- <section class="experience" id="experience">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="experience-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2024</div>
+                    <div class="timeline-content">
+                        <h3>Real Estate Listing Agent (Assistant)</h3>
+                        <span class="company">Houzme Africa</span>
+                        <p>Assist in creating listings on the website and participate in creating ad campaigns to enhance brand awareness.</p>
                     </div>
-                    <div class="wave"></div>
-                    <div class="wave"></div>
-                    <div class="wave"></div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2024</div>
+                    <div class="timeline-content">
+                        <h3>Volunteer Junior Website Manager</h3>
+                        <span class="company">Houzme Africa</span>
+                        <p>Updated and posted properties to the site and ensured timely responses to emails.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2024</div>
+                    <div class="timeline-content">
+                        <h3>Coding Tutor</h3>
+                        <span class="company">LEA Foundation</span>
+                        <p>Teach HTML, CSS, and JavaScript to students at Mukuru Slums Development Project and foster an inclusive learning environment.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2024</div>
+                    <div class="timeline-content">
+                        <h3>Co-founder & Community Lead</h3>
+                        <span class="company">Digital Leap Africa</span>
+                        <p>Started and managed a tech community of 600+ tech enthusiasts, organizing webinars and virtual inspiration sessions with industry professionals.</p>
+                    </div>
                 </div>
             </div>
-            <div class="timeline-item right">
-                <div class="timeline-card">
-                    <div class="timeline-text">
-                        <div class="timeline-date">2024 - Present</div>
-                        <h3>Junior Web Manager</h3>
-                        <a href="https://houzme.africa/" target="_blank"><h4>Houzme Africa</h4></a>
-                        <p>Updating and posting properties on the site.<br>Ensure emails are attended to and responded to in time</p>
+        </div>
+    </section> -->
+
+    <!-- 6️⃣ TESTIMONIALS SECTION -->
+    <!-- <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h2 class="section-title">Testimonials</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        Evans demonstrated exceptional problem-solving skills during our project collaboration. His attention to detail and commitment to quality code is impressive.
                     </div>
-                    <div class="wave"></div>
-                    <div class="wave"></div>
-                    <div class="wave"></div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JD</div>
+                        <div class="author-info">
+                            <h4>John Doe</h4>
+                            <p>Project Manager, Tech Solutions</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        As a mentor at LEA Foundation, Evans has shown remarkable patience and ability to explain complex concepts in simple terms. The students really connect with him.
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SM</div>
+                        <div class="author-info">
+                            <h4>Sarah Mwangi</h4>
+                            <p>Director, LEA Foundation</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        The Digital Leap Africa community has grown tremendously under Evans' leadership. His passion for technology and community building is truly inspiring.
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">AK</div>
+                        <div class="author-info">
+                            <h4>Alex Kamau</h4>
+                            <p>Community Member</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="timeline-item left">
-                <div class="timeline-card">
-                    <div class="timeline-text">
-                        <div class="timeline-date">2024 - Present</div>
-                        <h3>Social Media Management</h3>
-                        <h4>KUSO - Kenya</h4>
-                        <p>Managing the social media accounts for KUSO-Kenya, (X) Twitter and Facebook.</p>
+        </div>
+    </section> -->
+
+    <!-- Education Section (Optional but kept) -->
+    <section class="education" id="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-cards">
+                <div class="education-card">
+                    <h3>Advanced Diploma in Software Engineering</h3>
+                    <span class="institution"><i class="fas fa-university"></i>Edulink International College, Nairobi</span>
+                    <span class="duration"><i class="fas fa-calendar-alt"></i>June 2024 - Ongoing</span>
+                    <div class="coursework">
+                        <span class="course-bubble">Android Development</span>
+                        <span class="course-bubble">Java</span>
+                        <span class="course-bubble">Server Management</span>
                     </div>
-                    <div class="wave"></div>
-                    <div class="wave"></div>
-                    <div class="wave"></div>
                 </div>
-            </div>
-            <div class="timeline-item right">
-                <div class="timeline-card">
-                    <div class="timeline-text">
-                        <div class="timeline-date">2023 - Present</div>
-                        <h3>Freelance</h3>
-                        <h4>Self-Employed</h4>
-                        <p>Working on personal projects and Client Projects (websites)</p>
+                <div class="education-card">
+                    <h3>Diploma in Software Engineering</h3>
+                    <span class="institution"><i class="fas fa-university"></i>Edulink International College, Nairobi</span>
+                    <span class="duration"><i class="fas fa-calendar-alt"></i>May 2023 - May 2024</span>
+                    <div class="coursework">
+                        <span class="course-bubble">Object-Oriented Programming</span>
+                        <span class="course-bubble">Data Structures</span>
+                        <span class="course-bubble">Web Development</span>
+                        <span class="course-bubble">Database Management</span>
+                        <span class="course-bubble">Software Design</span>
                     </div>
-                    <div class="wave"></div>
-                    <div class="wave"></div>
-                    <div class="wave"></div>
+                </div>
+                <div class="education-card">
+                    <h3>Bachelor in Technology Communication and Computer Networks</h3>
+                    <span class="institution"><i class="fas fa-university"></i>The Technical University of Kenya</span>
+                    <span class="duration"><i class="fas fa-calendar-alt"></i>2023 - Present</span>
+                    <div class="coursework">
+                        <span class="course-bubble">Database Management</span>
+                        <span class="course-bubble">Computer Networks</span>
+                        <span class="course-bubble">Electronics</span>
+                        <span class="course-bubble">Accounts</span>
+                        <span class="course-bubble">Basic Computer Knowledge</span>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Services Section -->
-
-    <!-- Services Section -->
-<!-- Services Section -->
-<section id="services" class="services">
-    <p><h2>Services </h2><span>Get to feel the taste of technology</span></p>
-    <div class="services-container">
-        <div class="service-card">
-            <div class="service-card-inner">
-                <div class="service-card-overlay"></div>
-                <div class="service-card-blur-top"></div>
-                <div class="service-card-blur-bottom"></div>
-                <div class="service-card-popular">
-                    <div class="popular-gradient"></div>
-                    <div class="popular-mask"></div>
-                    <div class="popular-line"></div>
-                    <span class="popular-label">POPULAR</span>
-                </div>
-                <div class="service-content">
-                    <p class="service-title">Web Development Services</p>
-                    <div class="service-features">
-                        <div class="feature-item">
-                            <div class="feature-icon"><i class="fa fa-check"></i></div>
-                            <div>
-                                <p class="feature-title">Web Development</p>
-                                <p class="feature-desc">Responsive sites with HTML5, CSS3, JS.</p>
-                            </div>
+    <!-- 7️⃣ CONTACT SECTION -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
                         </div>
-                        <div class="feature-item">
-                            <div class="feature-icon"><i class="fa fa-check"></i></div>
-                            <div>
-                                <p class="feature-title">UI/UX Design</p>
-                                <p class="feature-desc">User-friendly web interfaces.</p>
-                            </div>
-                        </div>
-                        <div class="feature-item">
-                            <div class="feature-icon"><i class="fa fa-check"></i></div>
-                            <div>
-                                <p class="feature-title">Custom Web Software</p>
-                                <p class="feature-desc">Tailored solutions in Python, Java.</p>
-                            </div>
-                        </div>
-                        <div class="feature-item">
-                            <div class="feature-icon"><i class="fa fa-check"></i></div>
-                            <div>
-                                <p class="feature-title">Enterprise Apps</p>
-                                <p class="feature-desc">Scalable web apps with Agile.</p>
-                            </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Nairobi, Kenya</p>
                         </div>
                     </div>
-                    <button class="service-btn">
-                        <a href="#" onclick="openGmailCompose(); return false;" class="service-btn">
-                            <span class="btn-text">Book Appointment <i class="fa fa-arrow-right"></i></span>
-                        </a>
-                    </button>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>+2547 078 681 94</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <!-- <p>osumbaevans21@gmail.com</p> -->
+                            <p>e.osumba@digitalleap.africa</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>GitHub</h3>
+                            <p>github.com/osumba404</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact">Your Contact</label>
+                            <input type="text" id="contact" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
                 </div>
             </div>
         </div>
-
-        <div class="service-card">
-            <div class="service-card-inner">
-                <div class="service-card-overlay"></div>
-                <div class="service-card-blur-top"></div>
-                <div class="service-card-blur-bottom"></div>
-                <div class="service-content">
-                    <p class="service-title">Digital Productivity Solutions</p>
-                    <div class="service-features">
-                        <div class="feature-item">
-                            <div class="feature-icon"><i class="fa fa-check"></i></div>
-                            <div>
-                                <p class="feature-title">Spreadsheet Automation</p>
-                                <p class="feature-desc">Excel tools for analysis.</p>
-                            </div>
-                        </div>
-                        <div class="feature-item">
-                            <div class="feature-icon"><i class="fa fa-check"></i></div>
-                            <div>
-                                <p class="feature-title">Document Management</p>
-                                <p class="feature-desc">Pro document formatting.</p>
-                            </div>
-                        </div>
-                        <div class="feature-item">
-                            <div class="feature-icon"><i class="fa fa-check"></i></div>
-                            <div>
-                                <p class="feature-title">Presentation Design</p>
-                                <p class="feature-desc">Visually appealing slides.</p>
-                            </div>
-                        </div>
-                        <div class="feature-item">
-                            <div class="feature-icon"><i class="fa fa-check"></i></div>
-                            <div>
-                                <p class="feature-title">Collaboration Setup</p>
-                                <p class="feature-desc">Optimize remote tools.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="service-btn">
-                        <a href="#" onclick="openGmailCompose(); return false;" class="service-btn">
-                            <span class="btn-text">Book Appointment <i class="fa fa-arrow-right"></i></span>
-                        </a>
-                    </button>
-                </div>
-            </div>
-        </div>
-
-        <div class="service-card">
-            <div class="service-card-inner">
-                <div class="service-card-overlay"></div>
-                <div class="service-card-blur-top"></div>
-                <div class="service-card-blur-bottom"></div>
-                <div class="service-content">
-                    <p class="service-title">Web & Marketing Services</p>
-                    <div class="service-features">
-                        <div class="feature-item">
-                            <div class="feature-icon"><i class="fa fa-check"></i></div>
-                            <div>
-                                <p class="feature-title">SEO</p>
-                                <p class="feature-desc">Improve search visibility.</p>
-                            </div>
-                        </div>
-                        <div class="feature-item">
-                            <div class="feature-icon"><i class="fa fa-check"></i></div>
-                            <div>
-                                <p class="feature-title">Web Components</p>
-                                <p class="feature-desc">Dynamic website elements.</p>
-                            </div>
-                        </div>
-                        <div class="feature-item">
-                            <div class="feature-icon"><i class="fa fa-check"></i></div>
-                            <div>
-                                <p class="feature-title">CMS Development</p>
-                                <p class="feature-desc">Easy content platforms.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="service-btn">
-                        <a href="#" onclick="openGmailCompose(); return false;" class="service-btn">
-                            <span class="btn-text">Book Appointment <i class="fa fa-arrow-right"></i></span>
-                        </a>
-                    </button>
-                </div>
-            </div>
-        </div>
-
-        <div class="service-card">
-            <div class="service-card-inner">
-                <div class="service-card-overlay"></div>
-                <div class="service-card-blur-top"></div>
-                <div class="service-card-blur-bottom"></div>
-                <div class="service-card-popular">
-                    <div class="popular-gradient"></div>
-                    <div class="popular-mask"></div>
-                    <div class="popular-line"></div>
-                    <span class="popular-label">POPULAR</span>
-                </div>
-                <div class="service-content">
-                    <p class="service-title">Educational & Training Services</p>
-                    <div class="service-features">
-                        <div class="feature-item">
-                            <div class="feature-icon"><i class="fa fa-check"></i></div>
-                            <div>
-                                <p class="feature-title">Programming Tutoring</p>
-                                <p class="feature-desc">Teach Python, Java, C++, C#, JS.</p>
-                            </div>
-                        </div>
-                        <div class="feature-item">
-                            <div class="feature-icon"><i class="fa fa-check"></i></div>
-                            <div>
-                                <p class="feature-title">Computer Essentials</p>
-                                <p class="feature-desc">Basics, Excel, presentations (ICDL).</p>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="service-btn">
-                        <a href="#" onclick="openGmailCompose(); return false;" class="service-btn">
-                            <span class="btn-text">Book Appointment <i class="fa fa-arrow-right"></i></span>
-                        </a>
-                    </button>
-                </div>
-            </div>
-        </div>
-
-        <div class="service-card">
-            <div class="service-card-inner">
-                <div class="service-card-overlay"></div>
-                <div class="service-card-blur-top"></div>
-                <div class="service-card-blur-bottom"></div>
-                <div class="service-card-popular">
-                    <div class="popular-gradient"></div>
-                    <div class="popular-mask"></div>
-                    <div class="popular-line"></div>
-                    <span class="popular-label">POPULAR</span>
-                </div>
-                <div class="service-content">
-                    <p class="service-title">Consulting & Optimization</p>
-                    <div class="service-features">
-                        <div class="feature-item">
-                            <div class="feature-icon"><i class="fa fa-check"></i></div>
-                            <div>
-                                <p class="feature-title">Agile Management</p>
-                                <p class="feature-desc">Guide Agile practices.</p>
-                            </div>
-                        </div>
-                        <div class="feature-item">
-                            <div class="feature-icon"><i class="fa fa-check"></i></div>
-                            <div>
-                                <p class="feature-title">System Optimization</p>
-                                <p class="feature-desc">Enhance system efficiency.</p>
-                            </div>
-                        </div>
-                        <div class="feature-item">
-                            <div class="feature-icon"><i class="fa fa-check"></i></div>
-                            <div>
-                                <p class="feature-title">Responsive Design</p>
-                                <p class="feature-desc">Cross-device compatibility.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="service-btn">
-                        <a href="#" onclick="openGmailCompose(); return false;" class="service-btn">
-                            <span class="btn-text">Book Appointment <i class="fa fa-arrow-right"></i></span>
-                        </a>
-                    </button>
-                </div>
-            </div>
-        </div>
-
-        <div class="service-card">
-            <div class="service-card-inner">
-                <div class="service-card-overlay"></div>
-                <div class="service-card-blur-top"></div>
-                <div class="service-card-blur-bottom"></div>
-                <div class="service-card-popular">
-                    <div class="popular-gradient"></div>
-                    <div class="popular-mask"></div>
-                    <div class="popular-line"></div>
-                    <span class="popular-label">POPULAR</span>
-                </div>
-                <div class="service-content">
-                    <p class="service-title">Android Development Services</p>
-                    <div class="service-features">
-                        <div class="feature-item">
-                            <div class="feature-icon"><i class="fa fa-check"></i></div>
-                            <div>
-                                <p class="feature-title">Android Apps</p>
-                                <p class="feature-desc">Develop Android mobile apps.</p>
-                            </div>
-                        </div>
-                        <div class="feature-item">
-                            <div class="feature-icon"><i class="fa fa-check"></i></div>
-                            <div>
-                                <p class="feature-title">Custom Android Software</p>
-                                <p class="feature-desc">Specialized solutions with Java.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="service-btn">
-                        <a href="#" onclick="openGmailCompose(); return false;" class="service-btn">
-                            <span class="btn-text">Book Appointment <i class="fa fa-arrow-right"></i></span>
-                        </a>
-                    </button>
-                </div>
-            </div>
-        </div>
-
-        <div class="service-card">
-            <div class="service-card-inner">
-                <div class="service-card-overlay"></div>
-                <div class="service-card-blur-top"></div>
-                <div class="service-card-blur-bottom"></div>
-                <div class="service-content">
-                    <p class="service-title">Database Management</p>
-                    <div class="service-features">
-                        <div class="feature-item">
-                            <div class="feature-icon"><i class="fa fa-check"></i></div>
-                            <div>
-                                <p class="feature-title">Database Services</p>
-                                <p class="feature-desc">Design and manage with SQL.</p>
-                            </div>
-                        </div>
-                        <div class="feature-item">
-                            <div class="feature-icon"><i class="fa fa-check"></i></div>
-                            <div>
-                                <p class="feature-title">Back End Development</p>
-                                <p class="feature-desc">Implementing SQL Databases with PHP</p>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="service-btn">
-                        <a href="#" onclick="openGmailCompose(); return false;" class="service-btn">
-                            <span class="btn-text">Book Appointment <i class="fa fa-arrow-right"></i></span>
-                        </a>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-    
-    
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <h2>Contact Me</h2>
-        <form class="contact-form" id="contact-form">
-            <input type="text" id="name" placeholder="Your Name" required>
-            <input type="text" id="subject" placeholder="Subject" required>
-            <input type="text" id="phone" placeholder="Your Phone No" required>
-            <textarea id="message" placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-content">
-          
-            <div class="footer-links">
-                <h3>Quick Links</h3>
-                <a href="#home" class="link-item">Home</a>
-                <a href="#services" class="link-item">Services</a>
-                <a href="#projects" class="link-item">Projects</a>
-                <a href="#contact" class="link-item">Contact</a>
+    <!-- 8️⃣ FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-section">
+                    <div class="footer-logo">Evans<span>.</span></div>
+                    <p class="footer-description">Full-Stack & Mobile Developer passionate about creating digital solutions that make a difference. Let's build something amazing together.</p>
+                    <div class="footer-social">
+                        <a href="#" class="footer-social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="footer-social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="footer-social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="footer-social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#education">Education</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Mobile Apps</a></li>
+                        <li><a href="#">API Development</a></li>
+                        <li><a href="#">Consulting</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-map-marker-alt"></i> Nairobi, Kenya</p>
+                        <p><i class="fas fa-envelope"></i> e.osumba@digitalleap.africa</p>
+                        <p><i class="fas fa-envelope"></i> osumbaevans21@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> +254 707 868 194</p>
+                    </div>
+                </div>
             </div>
-            <div class="footer-contact">
-                <h3>Socials</h3>
-                <a href="https://twitter.com/Osumba_ke" target="_blank" class="contact-item">
-                    <i class="fab fa-twitter"></i> Twitter
-                </a>
-                <a href="https://www.linkedin.com/in/evans-osumba-0565b42b0/" target="_blank" class="contact-item">
-                    <i class="fab fa-linkedin"></i> LinkedIn
-                </a>
-                <a href="https://wa.me/254707868194" target="_blank" class="contact-item">
-                    <i class="fab fa-whatsapp"></i> WhatsApp
-                </a>
-                <a href="https://github.com/galaxie-dev" target="_blank" class="contact-item">
-                    <i class="fab fa-github"></i> GitHub
-                <a href="mailto:osumbaevans21@gmail.com" class="contact-item">
-                    <i class="fas fa-envelope"></i> osumbaevans21@gmail.com
-                </a>
-                <span class="contact-item">
-                    <i class="fas fa-phone"></i> +2547 078 681 94
-                </span>
-                <span class="contact-item">
-                    <i class="fas fa-map-marker-alt"></i> Nairobi, Kenya
-                </span>
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p>&copy; 2025 Evans Atula Osumba. All Rights Reserved.</p>
+                </div>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
             </div>
         </div>
-        <p class="footer-copyright">© 2025 | Terms and Conditions | All Rights Reserved.</p>
     </footer>
-</body>
-<script>
-    function openGmailCompose() {
-    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-    const email = "osumbaevans21@gmail.com";
-    const subject = "Booking an Appointment";
 
-    if (isMobile) {
-        // Open Gmail app on mobile
-        window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}`;
-    } else {
-        // Open Gmail web interface on desktop
-        window.open('https://mail.google.com/mail/?view=cm&fs=1&to=osumbaevans21@gmail.com&su=Booking%20an%20Appointment', '_blank');
-    }
-}
-
-
-    document.querySelectorAll('.accordion-header').forEach(header => {
-        header.addEventListener('click', () => {
-            const content = header.nextElementSibling;
-            const toggle = header.querySelector('.accordion-toggle');
+    <script>
+        // Theme Toggle
+        const themeToggle = document.getElementById('theme-toggle');
+        const themeIcon = themeToggle.querySelector('i');
+        
+        themeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('light-theme');
             
-            content.classList.toggle('active');
-            toggle.classList.toggle('active');
+            if (document.body.classList.contains('light-theme')) {
+                themeIcon.classList.remove('fa-moon');
+                themeIcon.classList.add('fa-sun');
+            } else {
+                themeIcon.classList.remove('fa-sun');
+                themeIcon.classList.add('fa-moon');
+            }
         });
-    });
+
+        // Mobile Menu Toggle
+        const mobileMenu = document.querySelector('.mobile-menu');
+        const navLinks = document.querySelector('.nav-links');
+        
+        mobileMenu.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // Form Submission
+        const contactForm = document.getElementById('contactForm');
+        
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            
+            const name = document.getElementById('name').value;
+            const contact = document.getElementById('contact').value;
+            const subject = document.getElementById('subject').value;
+            const message = document.getElementById('message').value;
+            
+            const recipients = 'e.osumba@digitalleap.africa,osumbaevans21@gmail.com';
+            const emailSubject = encodeURIComponent(subject);
+            const emailBody = encodeURIComponent(`${message}\n\nRegards,\n${name} | ${contact}`);
+            
+            // Try Gmail web interface first, then fallback to mailto
+            const gmailUrl = `https://mail.google.com/mail/?view=cm&to=${recipients}&su=${emailSubject}&body=${emailBody}`;
+            
+            // Open Gmail in new tab
+            const newWindow = window.open(gmailUrl, '_blank');
+            
+            // Fallback to mailto if popup blocked
+            if (!newWindow) {
+                const mailtoLink = `mailto:${recipients}?subject=${emailSubject}&body=${emailBody}`;
+                window.location.href = mailtoLink;
+            }
+            
+            contactForm.reset();
+        });
+
+        // Smooth Scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                    
+                    // Close mobile menu if open
+                    if (window.innerWidth <= 768) {
+                        navLinks.classList.remove('active');
+                    }
+                }
+            });
+        });
+
+        // Header scroll effect
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 100) {
+                header.style.boxShadow = '0 5px 20px rgba(0, 0, 0, 0.1)';
+            } else {
+                header.style.boxShadow = 'none';
+            }
+        });
     </script>
+</body>
 </html>
-
-
-
-
-<!-- <p class="subtitle" id="subtitle1">Turning ideas into reality through code</p>
-<p class="subtitle" id="subtitle2">Get to feel the taste of technology</p>
-<p class="subtitle" id="subtitle3">Building Transformations for the future</p> -->
