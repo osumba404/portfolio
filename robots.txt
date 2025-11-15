@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Sitemap: https://osumba.digitalleap.africa/sitemap.xml
+
+# Block common bot paths
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
