@@ -51,7 +51,7 @@
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="new-style.css">
 </head>
 <body>
     <!-- Header -->
@@ -78,9 +78,9 @@
     <!-- 1️⃣ HERO SECTION -->
     <section class="hero">
         <div class="hero-content">
-            <h1 class="hero-title">Evans Atula <span>Osumba</span></h1>
-            <h2 class="hero-subtitle">Full-Stack & Mobile Developer in Nairobi, Kenya</h2>
-            <h3 class="hero-subtitle">Founder - Digital Leap Africa</h3>
+            <!-- <h1 class="hero-title">Evans Atula <span>Osumba</span></h1> -->
+            <h2 class="hero-subtitle">Full-Stack Web & Mobile Developer</h2>
+            <!-- <h3 class="hero-subtitle">Founder - Digital Leap Africa</h3> -->
             <p class="hero-description">Professional software engineer specializing in Django, PHP, Flutter, and React development. I build scalable web & mobile solutions that solve real problems. Committed to promoting digital literacy and empowering individuals in STEM across Kenya and Africa.</p>
             <div class="hero-btns">
                 <a href="#projects" class="btn btn-primary" aria-label="View Evans Osumba's portfolio projects">View My Work</a>
@@ -95,6 +95,25 @@
         <div class="container">
             <h2 class="section-title">Featured Web Development & Mobile App Projects</h2>
             <div class="projects-grid">
+                 <div class="project-card">
+                    <div class="project-image" style="background-image: url('dlafrica.png')"></div>
+                    <div class="project-content">
+                        <h3>Digital Leap Africa</h3>
+                        <p>Digital Leap Africa (DLA) is an inclusive technology community empowering Africa’s next generation of digital creators.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Laravel</span>
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">MySQL</span>
+                            <span class="project-tag">Daraja</span>
+                            <span class="project-tag">Tailwind CSS</span>
+                           
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="https://digitalleap.africa" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
                 <div class="project-card">
                     <div class="project-image" style="background-image: url('gainfarm-photo.png')"></div>
                     <div class="project-content">
@@ -129,25 +148,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="project-card">
-                    <div class="project-image" style="background-image: url('dlafrica.png')"></div>
-                    <div class="project-content">
-                        <h3>Digital Leap Africa</h3>
-                        <p>Digital Leap Africa (DLA) is an inclusive technology community empowering Africa’s next generation of digital creators.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">Laravel</span>
-                            <span class="project-tag">React</span>
-                            <span class="project-tag">MySQL</span>
-                            <span class="project-tag">Daraja</span>
-                            <span class="project-tag">Tailwind CSS</span>
-                           
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
-                            <a href="https://digitalleap.africa" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                        </div>
-                    </div>
-                </div>
+               
                 <div class="project-card">
                     <div class="project-image" style="background-image: url('eyeonic-site.png')"></div>
                     <div class="project-content">
@@ -172,7 +173,7 @@
     <!-- 3️⃣ ABOUT ME SECTION -->
     <section class="about" id="about">
         <div class="container">
-            <h2 class="section-title">About Evans Osumba - Professional Software Developer</h2>
+            <h2 class="section-title">About Evans Osumba</h2>
             <div class="about-content">
                 <div class="about-text">
                     <h3>Building Digital Solutions That Matter in Kenya and Beyond</h3>
@@ -218,6 +219,16 @@
                         <span class="skill-badge">SQLite</span>
                     </div>
                 </div>
+                 <div class="skills-category">
+                    <h3><i class="fas fa-laptop-code"></i> Data Science & Machine Learning</h3>
+                    <div class="skills-list">
+                        <span class="skill-badge">Jupiter</span>
+                        <span class="skill-badge">Python</span>
+                        <span class="skill-badge">TensorFlow</span>
+                        <span class="skill-badge">Scikit-learn</span>
+                        <span class="skill-badge">Pandas</span>
+                    </div>
+                </div>
                 <div class="skills-category">
                     <h3><i class="fas fa-tools"></i> Tools & Others</h3>
                     <div class="skills-list">
@@ -226,8 +237,10 @@
                         <span class="skill-badge">VS Code</span>
                         <span class="skill-badge">Figma</span>
                         <span class="skill-badge">Agile</span>
+                        <span class="skill-badge">Anaconda</span>
                     </div>
                 </div>
+               
             </div>
         </div>
     </section>
@@ -235,38 +248,234 @@
     <!-- 5️⃣ EXPERIENCE SECTION -->
     <section class="experience" id="experience">
         <div class="container">
-            <h2 class="section-title">Work Experience</h2>
+            <h2 class="section-title">Professional Experience</h2>
             <div class="experience-timeline">
-                <div class="timeline-item">
-                    <div class="timeline-date">2024</div>
-                    <div class="timeline-content">
-                        <h3>Real Estate Listing Agent (Assistant)</h3>
-                        <span class="company">Houzme Africa</span>
-                        <p>Assist in creating listings on the website and participate in creating ad campaigns to enhance brand awareness.</p>
+                <div class="timeline-item active">
+                    <div class="timeline-card">
+                        <div class="timeline-status current">Current</div>                        
+                        <div class="timeline-content">
+                            <h3 class="position-title">Project Lead</h3>
+                            <div class="company-info">
+                                <i class="fas fa-building"></i>
+                                <span class="company-name">Rilakin Investments</span>
+                                <span class="company-type">FinTech</span>
+                            </div>
+                            <p class="job-description">Leading the development of a comprehensive FinTech platform for members and shareholders, implementing secure financial solutions and user-centric design.</p>
+                            <div class="achievements">
+                                <div class="achievement-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Architecting scalable financial platform</span>
+                                </div>
+                                <div class="achievement-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Leading cross-functional development team</span>
+                                </div>
+                            </div>
+                            <div class="tech-stack">
+                                <span class="tech-tag">Django</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                                <span class="tech-tag">Payment APIs</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="timeline-item">
-                    <div class="timeline-date">2024</div>
-                    <div class="timeline-content">
-                        <h3>Volunteer Junior Website Manager</h3>
-                        <span class="company">Houzme Africa</span>
-                        <p>Updated and posted properties to the site and ensured timely responses to emails.</p>
+
+                <div class="timeline-item active">
+                    <div class="timeline-card">
+                        <div class="timeline-status current">Current</div>                        
+                        <div class="timeline-content">
+                            <h3 class="position-title">Innovation Lead</h3>
+                            <div class="company-info">
+                                <i class="fas fa-leaf"></i>
+                                <span class="company-name">Animal IQ</span>
+                                <span class="company-type">NatureTech</span>
+                            </div>
+                            <p class="job-description">Leading innovation initiatives in wildlife conservation technology, developing digital solutions to enhance animal welfare and conservation efforts across Africa.</p>
+                            <div class="achievements">
+                                <div class="achievement-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Developing conservation technology platform</span>
+                                </div>
+                                <div class="achievement-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Building wildlife data management systems</span>
+                                </div>
+                            </div>
+                            <div class="tech-stack">
+                                <span class="tech-tag">PHP</span>
+                                <span class="tech-tag">MySQL</span>
+                                <span class="tech-tag">Conservation Tech</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="timeline-item">
-                    <div class="timeline-date">2024</div>
-                    <div class="timeline-content">
-                        <h3>Coding Tutor</h3>
-                        <span class="company">LEA Foundation</span>
-                        <p>Teach HTML, CSS, and JavaScript to students at Mukuru Slums Development Project and foster an inclusive learning environment.</p>
+
+                <div class="timeline-item active">
+                    <div class="timeline-card">
+                        <div class="timeline-status current">Current</div>                     
+                        <div class="timeline-content">
+                            <h3 class="position-title">Co-founder & Community Lead</h3>
+                            <div class="company-info">
+                                <i class="fas fa-users"></i>
+                                <span class="company-name">Digital Leap Africa</span>
+                                <span class="company-type">Tech Community</span>
+                            </div>
+                            <p class="job-description">Founded and scaled a thriving tech community, fostering digital literacy and empowering the next generation of African developers through mentorship and education.</p>
+                            <div class="achievements">
+                                <div class="achievement-item">
+                                    <i class="fas fa-users"></i>
+                                    <span>Built community of 600+ tech enthusiasts</span>
+                                </div>
+                                <div class="achievement-item">
+                                    <i class="fas fa-video"></i>
+                                    <span>Organized 20+ webinars with industry experts</span>
+                                </div>
+                                <div class="achievement-item">
+                                    <i class="fas fa-graduation-cap"></i>
+                                    <span>Mentored 100+ aspiring developers</span>
+                                </div>
+                            </div>
+                            <div class="tech-stack">
+                                <span class="tech-tag">Community Building</span>
+                                <span class="tech-tag">Mentorship</span>
+                                <span class="tech-tag">Event Management</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
                 <div class="timeline-item">
-                    <div class="timeline-date">2024</div>
-                    <div class="timeline-content">
-                        <h3>Co-founder & Community Lead</h3>
-                        <span class="company">Digital Leap Africa</span>
-                        <p>Started and managed a tech community of 600+ tech enthusiasts, organizing webinars and virtual inspiration sessions with industry professionals.</p>
+                    <div class="timeline-card">
+                        <div class="timeline-status current">Current</div>
+                        <div class="timeline-content">
+                            <h3 class="position-title">Coding Instructor</h3>
+                            <div class="company-info">
+                                <i class="fas fa-heart"></i>
+                                <span class="company-name">LEA Foundation</span>
+                                <span class="company-type">Non-Profit</span>
+                            </div>
+                            <p class="job-description">Teaching web development fundamentals to underserved youth in Mukuru Slums, creating pathways to digital opportunities and economic empowerment.</p>
+                            <div class="achievements">
+                                <div class="achievement-item">
+                                    <i class="fas fa-chalkboard-teacher"></i>
+                                    <span>Teaching HTML, CSS & JavaScript</span>
+                                </div>
+                                <div class="achievement-item">
+                                    <i class="fas fa-hands-helping"></i>
+                                    <span>Fostering inclusive learning environment</span>
+                                </div>
+                                <div class="achievement-item">
+                                    <i class="fas fa-laptop-code"></i>
+                                    <span>Trained 50+ students in web development</span>
+                                </div>
+                            </div>
+                            <div class="tech-stack">
+                                <span class="tech-tag">HTML/CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">Teaching</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-card">
+                        <div class="timeline-status completed">Completed</div>
+                        <div class="timeline-content">
+                            <h3 class="position-title">Real Estate Listing Specialist</h3>
+                            <div class="company-info">
+                                <i class="fas fa-home"></i>
+                                <span class="company-name">Houzme Africa</span>
+                                <span class="company-type">PropTech</span>
+                            </div>
+                            <p class="job-description">Managed property listings and digital marketing campaigns, enhancing brand visibility and customer engagement through strategic content creation.</p>
+                            <div class="achievements">
+                                <div class="achievement-item">
+                                    <i class="fas fa-chart-line"></i>
+                                    <span>Increased listing engagement by 40%</span>
+                                </div>
+                                <div class="achievement-item">
+                                    <i class="fas fa-ad"></i>
+                                    <span>Created targeted ad campaigns</span>
+                                </div>
+                                <div class="achievement-item">
+                                    <i class="fas fa-clock"></i>
+                                    <span>Maintained 24hr email response time</span>
+                                </div>
+                            </div>
+                            <div class="tech-stack">
+                                <span class="tech-tag">Digital Marketing</span>
+                                <span class="tech-tag">Content Creation</span>
+                                <span class="tech-tag">CRM</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                        
+                        <div class="timeline-content">
+                            <h3 class="position-title">Coding Instructor</h3>
+                            <div class="company-info">
+                                <i class="fas fa-heart"></i>
+                                <span class="company-name">LEA Foundation</span>
+                                <span class="company-type">Non-Profit</span>
+                                <span class="company-type">EdTech</span>
+                            </div>
+                            <p class="job-description">Teaching web development fundamentals to underserved youth in Mukuru Slums, creating pathways to digital opportunities and economic empowerment.</p>
+                            <div class="achievements">
+                                <div class="achievement-item">
+                                    <i class="fas fa-chalkboard-teacher"></i>
+                                    <span>Teaching HTML, CSS & JavaScript</span>
+                                </div>
+                                <div class="achievement-item">
+                                    <i class="fas fa-hands-helping"></i>
+                                    <span>Fostering inclusive learning environment</span>
+                                </div>
+                                <div class="achievement-item">
+                                    <i class="fas fa-laptop-code"></i>
+                                    <span>Trained 50+ students in web development</span>
+                                </div>
+                            </div>
+                            <div class="tech-stack">
+                                <span class="tech-tag">HTML/CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">Teaching</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-card">
+                        <div class="timeline-status completed">Oct 2024 - Jan 2025</div>
+                       
+                        <div class="timeline-content">
+                            <h3 class="position-title">Real Estate Listing Specialist</h3>
+                            <div class="company-info">
+                                <i class="fas fa-home"></i>
+                                <span class="company-name">Houzme Africa</span>
+                                <span class="company-type">PropTech</span>
+                            </div>
+                            <p class="job-description">Managed property listings and digital marketing campaigns, enhancing brand visibility and customer engagement through strategic content creation.</p>
+                            <div class="achievements">
+                                <div class="achievement-item">
+                                    <i class="fas fa-chart-line"></i>
+                                    <span>Increased listing engagement by 40%</span>
+                                </div>
+                                <div class="achievement-item">
+                                    <i class="fas fa-ad"></i>
+                                    <span>Created targeted ad campaigns</span>
+                                </div>
+                                <div class="achievement-item">
+                                    <i class="fas fa-clock"></i>
+                                    <span>Maintained 24hr email response time</span>
+                                </div>
+                            </div>
+                            <div class="tech-stack">
+                                <span class="tech-tag">Digital Marketing</span>
+                                <span class="tech-tag">Content Creation</span>
+                                <span class="tech-tag">CRM</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -354,9 +563,10 @@
                     <div class="coursework">
                         <span class="course-bubble">Database Management</span>
                         <span class="course-bubble">Computer Networks</span>
+                        <span class="course-bubble">Communication Systems</span>
                         <span class="course-bubble">Electronics</span>
                         <span class="course-bubble">Accounts</span>
-                        <span class="course-bubble">Basic Computer Knowledge</span>
+                        <span class="course-bubble">Statistics</span>
                     </div>
                 </div>
             </div>
